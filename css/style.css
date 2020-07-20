@@ -22,12 +22,21 @@
   background-color: #F3F5F9;
 }
 
+.bg_dblue{
+  background-color: #031B4E;
+}
+
 .bg_gradient{
   background: linear-gradient(#0547C6, #00209B);
 }
 
 .m_bottom_0{
   margin-bottom: 0px;
+}
+
+.p_top_bottom_30{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .p_top_bottom_50{
@@ -87,6 +96,11 @@
 }
 
 /* MAIN */
+
+/* Section 2 - Deploy */
+#deploy .wrapper_small{
+  margin-top: 50px;
+}
 
 /* Section 3 - Designed */
 #designed .container p{
