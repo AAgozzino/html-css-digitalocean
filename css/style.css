@@ -1,0 +1,16 @@
+/* DEBUG */
+.bg_lgrey{
+  background-color: lightgrey;
+}
+
+.bg_pink{
+  background-color: pink;
+  border: 1px solid black;
+}
+
+/* HEADER */
+
+.header_top{
+  height: 60px;
+  line-height: 60px;
+}
