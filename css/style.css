@@ -15,7 +15,6 @@
 
 .h_fix{
   height: 400px;
-  line-height: 400px;
 }
 
 /* MIX */
@@ -41,6 +40,29 @@
   max-width: 1000px;
   margin: auto;
 }
+
+/* slider */
+.wrapper_slider{
+  position: relative;
+}
+
+.wrapper_slider #immagine {
+  width: 90%;
+  margin: auto;
+}
+
+.glyphicon-chevron-left{
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.glyphicon-chevron-right{
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
 /* HEADER */
 .header_top{
   position: fixed;
