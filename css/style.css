@@ -33,7 +33,7 @@
 
 .p_top_bottom_70{
   padding-top: 70px;
-  padding_bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .wrapper_small{
@@ -77,4 +77,16 @@
 /* Jumbotron */
 .jumbo{
   margin-top: 60px;
+}
+
+/* MAIN */
+
+/* Section 3 - Designed */
+#designed .container p{
+  margin-bottom: 50px;
+}
+
+/* Section 4 - Features */
+#features h2{
+  margin-bottom: 40px;
 }
