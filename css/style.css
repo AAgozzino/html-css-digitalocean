@@ -13,17 +13,28 @@
   background-color: aqua;
 }
 
-.text_right{
-  text-align: right;
-}
 /* MIX */
 .bg_lblue{
   background-color: #F3F5F9;
 }
 
+.m_bottom_0{
+  margin-bottom: 0px;
+}
+
 .p_top_bottom_50{
-  margin-top: 50px;
-  margin-bottom: 50px
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+
+.p_top_bottom_70{
+  padding-top: 70px;
+  padding_bottom: 70px;
+}
+
+.wrapper_small{
+  max-width: 1000px;
+  margin: auto;
 }
 /* HEADER */
 .header_top{
