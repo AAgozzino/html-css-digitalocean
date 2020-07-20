@@ -1,6 +1,7 @@
 /* DEBUG */
 .bg_lgrey{
   background-color: lightgrey;
+  border: 1px solid black;
 }
 
 .bg_pink{
@@ -8,18 +9,34 @@
   border: 1px solid black;
 }
 
+.bg_acqua{
+  background-color: aqua;
+}
+
 .text_right{
   text-align: right;
 }
+/* MIX */
+.bg_lblue{
+  background-color: #F3F5F9;
+}
 
+.p_top_bottom_50{
+  margin-top: 50px;
+  margin-bottom: 50px
+}
 /* HEADER */
-
 .header_top{
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   height: 60px;
+  width: 100%;
   line-height: 60px;
+}
 
+/* Jumbotron */
+.jumbo{
+  margin-top: 60px;
 }
