@@ -22,6 +22,10 @@
   background-color: #F3F5F9;
 }
 
+.bg_gradient{
+  background: linear-gradient(#0547C6, #00209B);
+}
+
 .m_bottom_0{
   margin-bottom: 0px;
 }
@@ -95,9 +99,6 @@
 }
 
 /* Section 5 - Service */
-section#service{
-  background: linear-gradient(#0547C6, #00209B);
-}
 
 section#service [class*='box']{
   width: calc(50% - 15px/2);
@@ -111,7 +112,7 @@ section#service [class*='box']{
   float: right;
 }
 
-.row{
+[class*='box'] .row{
   border-bottom: 1px solid #fff;
   line-height: 2em;
 }
@@ -122,6 +123,11 @@ section#service [class*='box'] .col-xs-7{
 
 section#service [class*='box'] .col-xs-3{
   text-align: right;
+}
+
+/* Section 6 - Development */
+#development .container h2{
+  margin-bottom: 50px;
 }
 
 /* RESPONSIVE */
