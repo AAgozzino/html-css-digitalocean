@@ -1,41 +1,31 @@
-/* section#service{
-  background: linear-gradient(#0547C6, #00209B);
+.bg_grey{
+  background-color: grey;
 }
 
-[class*='box']{
+.title_blue{
+  color: #0568F6;
+}
+
+.form_signup input{
+  display: block;
   width: 100%;
-  background-color: green;
+  border-radius: 5px;
+  border: none;
+  margin: 10px auto;
+  line-height: 30px;
 }
 
-.box_left{
-  float: left;
+a#create{
+  display: block;
+  background-color: #0568F6;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-.box_right{
-  float: right;
-}
-
-.row{
-  border-bottom: 1px solid #fff;
-  line-height: 2em;
-}
-
-@media screen and (min-width: @screen-lg-min){
-  [class*='box']{
-    width: calc(50% - 15px/2);
-  }
-} */
-
-#prova{
-  background: linear-gradient(#0547C6, #00209B);
-  height: 300px;
-}
-
-.bg_green{
-  background-color: green;
-}
-
-[class*='col-'] .container-fluid > .row{
-  border-bottom: 1px solid #fff;
-  line-height: 2em;
+a#sign_google{
+  display: block;
+  background-color: pink;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5)
 }
