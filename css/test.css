@@ -1,9 +1,9 @@
-section#service{
+/* section#service{
   background: linear-gradient(#0547C6, #00209B);
 }
 
 [class*='box']{
-  width: calc(50% - 15px/2);
+  width: 100%;
   background-color: green;
 }
 
@@ -20,8 +20,22 @@ section#service{
   line-height: 2em;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (min-width: @screen-lg-min){
   [class*='box']{
-    width: 100%;
+    width: calc(50% - 15px/2);
   }
+} */
+
+#prova{
+  background: linear-gradient(#0547C6, #00209B);
+  height: 300px;
+}
+
+.bg_green{
+  background-color: green;
+}
+
+[class*='col-'] > .row{
+  border-bottom: 1px solid #fff;
+  line-height: 2em;
 }
