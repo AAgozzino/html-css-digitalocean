@@ -122,6 +122,10 @@
   background-color: #0568F6;
 }
 
+#button_hamburger{
+  color: #0568F6;
+  border: none;
+}
 /* Jumbotron */
 .jumbo{
   margin-top: 60px;
