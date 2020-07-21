@@ -88,6 +88,20 @@
   right: 0;
 }
 
+/* TIPOGRAFIA */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p.par_big{
+  font-size: 1.5em;
+}
+
 /* HEADER */
 .header_top{
   position: fixed;
@@ -126,9 +140,19 @@
   color: #0568F6;
   border: none;
 }
+
 /* Jumbotron */
 .jumbo{
   margin-top: 60px;
+  background-image: url(../img/bg-jumbotron.svg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.jumbo.par_big{
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7)
 }
 
 /* MAIN */
@@ -166,4 +190,10 @@ section#service [class*='box'] .col-xs-3{
 /* Section 6 - Development */
 #development .container h2{
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1200px){
+  h1{
+    font-size: 50px;
+  }
 }
