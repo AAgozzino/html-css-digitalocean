@@ -35,7 +35,7 @@
   background-color: green;
 }
 
-[class*='col-'] > .row{
+[class*='col-'] .container-fluid > .row{
   border-bottom: 1px solid #fff;
   line-height: 2em;
 }

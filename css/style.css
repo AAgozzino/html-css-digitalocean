@@ -114,19 +114,7 @@
 
 /* Section 5 - Service */
 
-section#service [class*='box']{
-  width: calc(50% - 15px/2);
-}
-
-.box_left{
-  float: left;
-}
-
-.box_right{
-  float: right;
-}
-
-[class*='box'] .row{
+[class*='col-'] .container-fluid > .row{
   border-bottom: 1px solid #fff;
   line-height: 2em;
 }
@@ -142,11 +130,4 @@ section#service [class*='box'] .col-xs-3{
 /* Section 6 - Development */
 #development .container h2{
   margin-bottom: 50px;
-}
-
-/* RESPONSIVE */
-@media screen and (max-width: 1200px){
-  section#service [class*='box']{
-    width: 100%;
-  }
 }
