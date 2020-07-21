@@ -30,6 +30,9 @@
   background: linear-gradient(#0547C6, #00209B);
 }
 
+.m_top_0{
+  margin-top: 0px;
+}
 .m_bottom_0{
   margin-bottom: 0px;
 }
@@ -260,9 +263,7 @@ p#innovative{
 
 
 /* Section 4 - Features */
-#features h2{
-  margin-bottom: 40px;
-}
+
 
 /* Section 5 - Service */
 
