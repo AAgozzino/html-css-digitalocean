@@ -10,13 +10,14 @@
   display: block;
   width: 100%;
   border-radius: 5px;
-  border: none;
+  border: 1px solid #EEEEEE;
   margin: 10px auto;
   line-height: 30px;
 }
 
 a#create{
   display: block;
+  line-height: 30px;
   background-color: #0568F6;
   color: #fff;
   padding: 5px;
@@ -25,7 +26,13 @@ a#create{
 
 a#sign_google{
   display: block;
-  background-color: pink;
+  line-height: 30px;
+  padding: 5px;
   border-radius: 5px;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.5)
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+}
+
+a#sign_google img{
+  height: 30px;
 }
