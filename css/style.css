@@ -34,6 +34,10 @@
   margin-bottom: 0px;
 }
 
+.m_bottom_20{
+  margin-bottom: 20px;
+}
+
 .p_top_bottom_30{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -99,11 +103,30 @@ body{
 
 h1{
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+h2{
+  font-weight: 600;
+  color: #061B4E;
+}
+
+h3{
+  font-weight: 600;
+  color: #061B4E;
+}
+
+h4{
+  font-weight: 600;
+  color: #061B4E;
 }
 
 p.par_big{
   font-size: 1.5em;
+}
+
+p.par_grey{
+  color: #5C6A88;
 }
 
 /* HEADER */
@@ -196,10 +219,33 @@ a#sign_google img{
 }
 
 /* MAIN */
+/* Section 1 - Loghi */
+p#innovative{
+  font-weight: 500;
+  color: #6F7B97;
+}
+
+#loghi .row a:hover{
+  text-decoration: none;
+  color: #1633ff;
+}
 
 /* Section 2 - Deploy */
 #deploy .wrapper_small{
   margin-top: 50px;
+}
+
+#deploy .side_menu{
+  border-left: 2px solid #CCCCCC;
+}
+
+#deploy .side_menu .side_menu_item{
+  border: none;
+  color: #5C6A88;
+}
+
+#deploy img{
+  max-height: 36px;
 }
 
 /* Section 3 - Designed */
