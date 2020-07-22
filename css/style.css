@@ -174,6 +174,9 @@ a:hover{
   color: #1633ff;
 }
 
+i[class*='fa-angle-']{
+  vertical-align: middle;
+}
 /* HEADER */
 .header_top{
   position: fixed;
@@ -354,12 +357,76 @@ p#innovative{
 }
 
 /* Section 7 - Get Started */
+#started a{
+  position: relative;
+}
+
+#started a .overlay{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#started a:hover .overlay{
+  display: inline-block;
+}
 
 /* FOOTER */
 footer .footer_menu li a{
   color: #fff;
   opacity: 0.6;
 }
+
+.shark_sammy{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 35px;
+}
+
+.speach{
+  float: left;
+  position: relative;
+  display: none;
+  max-width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  color: #031B4E;
+  background-color: #fff;
+  box-shadow: rgba(3,27,78,0.3) 0px 2px 4px;
+}
+.speach::after{
+  display: none;
+  content: '';
+  border: 10px solid transparent;
+  border-left-color: #fff;
+  border-bottom: 0;
+  position:absolute;
+  top: 50%;
+  right: -20px;
+  margin-top: -10px;
+}
+
+.shark_sammy img{
+  float: left;
+}
+
+.shark_sammy::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.shark_sammy:hover .speach, .speach::after{
+  display: inline-block;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 1200px){
