@@ -275,11 +275,10 @@ a#sign_google img{
   font-size: 10px;
 }
 
-  /* to check */
-.jumbo input[type=email]:focus{
-  border: 1px solid #1633ff;
+.jumbo .form_signup input:focus{
+  outline: none;
+  border: 1px solid #1633ff
 }
-  /* to check */
 
 /* MAIN */
 /* Section 1 - Loghi */
