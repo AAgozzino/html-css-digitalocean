@@ -401,6 +401,7 @@ footer .footer_menu li a{
   background-color: #fff;
   box-shadow: rgba(3,27,78,0.3) 0px 2px 4px;
 }
+
 .speach::after{
   display: none;
   content: '';
@@ -415,6 +416,7 @@ footer .footer_menu li a{
 
 .shark_sammy img{
   float: left;
+  border-radius: 5px;
 }
 
 .shark_sammy::after{
