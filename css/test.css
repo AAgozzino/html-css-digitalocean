@@ -36,3 +36,52 @@ a#sign_google{
 a#sign_google img{
   height: 30px;
 }
+
+/* slider */
+.wrapper_slider{
+  position: relative;
+}
+
+.wrapper_slider .immagine {
+  width: 90%;
+  margin: auto;
+}
+
+.wrapper_slider .immagine img{
+  width: 100%;
+}
+
+.glyphicon-chevron-left{
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.glyphicon-chevron-right{
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.slider_point{
+  color: #0568F6;
+  font-size: 10px;
+}
+/* carousel */
+#development .container h2{
+  margin-bottom: 50px;
+}
+
+#development .immagine{
+  background-color: #fff;
+  border-radius: 5px;
+}
+#development img{
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+#development p.quote{
+  max-width: 90%;
+  margin: auto;
+}

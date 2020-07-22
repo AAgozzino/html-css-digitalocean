@@ -33,6 +33,7 @@
 .m_top_0{
   margin-top: 0px;
 }
+
 .m_bottom_0{
   margin-bottom: 0px;
 }
@@ -130,6 +131,10 @@ h3{
 h4{
   font-weight: 600;
   color: #061B4E;
+}
+
+h5{
+  font-weight: 600;
 }
 
 p.par_big{
@@ -283,6 +288,7 @@ p#innovative{
 #service .place{
   opacity: 0.6;
 }
+
 #service a{
   color: #5DD6D1;
 }
@@ -293,6 +299,22 @@ p#innovative{
   margin-bottom: 50px;
 }
 
+#development .immagine{
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#development img{
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+#development p.quote{
+  max-width: 90%;
+  margin: auto;
+}
+
+/* RESPONSIVE */
 @media screen and (min-width: 1200px){
   h1{
     font-size: 50px;
