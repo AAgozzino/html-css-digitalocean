@@ -93,6 +93,10 @@
   position: relative;
 }
 
+.wrapper_carousel{
+  margin-top: 100px;
+}
+
 .wrapper_slider .immagine {
   width: 90%;
   margin: auto;
@@ -117,7 +121,13 @@
 .slider_point{
   color: #0568F6;
   font-size: 10px;
+  margin-top: 70px;
 }
+
+[class*="glyphicon-chevron-"]:hover{
+  color: #69758F;
+}
+
 /* TIPOGRAFIA */
 body{
   font-family: 'Roboto', sans-serif;
@@ -147,12 +157,21 @@ h5{
   font-weight: 600;
 }
 
+a{
+  color: #0568F6;
+}
+
 p.par_big{
   font-size: 1.5em;
 }
 
 p.par_grey{
   color: #5C6A88;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #1633ff;
 }
 
 /* HEADER */
@@ -233,6 +252,8 @@ a#create{
 
 a#sign_google{
   display: block;
+  position: relative;
+  color: #626262;
   line-height: 30px;
   padding: 5px;
   border-radius: 5px;
@@ -240,20 +261,31 @@ a#sign_google{
   margin: 10px auto;
 }
 
+a#sign_google:hover{
+  color: #0568F6;
+}
+
 a#sign_google img{
+  position: absolute;
+  left: 10px;
   height: 30px;
 }
+
+.jumbo p.terms{
+  font-size: 10px;
+}
+
+  /* to check */
+.jumbo input[type=email]:focus{
+  border: 1px solid #1633ff;
+}
+  /* to check */
 
 /* MAIN */
 /* Section 1 - Loghi */
 p#innovative{
   font-weight: 500;
   color: #6F7B97;
-}
-
-#loghi .row a:hover{
-  text-decoration: none;
-  color: #1633ff;
 }
 
 /* Section 2 - Deploy */
@@ -276,9 +308,7 @@ p#innovative{
 
 /* Section 3 - Designed */
 
-
 /* Section 4 - Features */
-
 
 /* Section 5 - Service */
 
@@ -299,13 +329,14 @@ p#innovative{
   color: #5DD6D1;
 }
 
-/* Section 6 - Development */
-#development .container h2{
-  margin-bottom: 50px;
+#service a:hover{
+  color: #1633ff;
 }
 
+/* Section 6 - Development */
 #development .immagine{
   background-color: #fff;
+  padding: 40px 5px;
   border-radius: 5px;
 }
 
@@ -319,14 +350,33 @@ p#innovative{
   margin: auto;
 }
 
+#development .slider_point{
+  margin-top: 30px;
+}
+
+/* Section 7 - Get Started */
+
 /* FOOTER */
 footer .footer_menu li a{
   color: #fff;
   opacity: 0.6;
 }
 /* RESPONSIVE */
+
 @media screen and (min-width: 1200px){
   h1{
     font-size: 50px;
+  }
+
+  .wrapper_carousel{
+    margin-top: 50px;
+  }
+
+  .slider_point{
+    margin-top: auto;
+  }
+
+  #development .immagine{
+    padding: 70px 5px;
   }
 }
