@@ -70,6 +70,10 @@
   color: #0568F6;
 }
 
+.text_opac{
+  opacity: 0.6;
+}
+
 /* Bottoni */
 .button{
   color: #0568F6;
@@ -291,10 +295,6 @@ p#innovative{
   text-align: right;
 }
 
-#service .place{
-  opacity: 0.6;
-}
-
 #service a{
   color: #5DD6D1;
 }
@@ -319,6 +319,11 @@ p#innovative{
   margin: auto;
 }
 
+/* FOOTER */
+footer .footer_menu li a{
+  color: #fff;
+  opacity: 0.6;
+}
 /* RESPONSIVE */
 @media screen and (min-width: 1200px){
   h1{
