@@ -272,13 +272,21 @@ p#innovative{
   line-height: 2em;
 }
 
-section#service [class*='box'] .col-xs-7{
+#service [class*='box'] .col-xs-7{
   text-align: left;
 }
 
-section#service [class*='box'] .col-xs-3{
+#service [class*='box'] .col-xs-3{
   text-align: right;
 }
+
+#service .place{
+  opacity: 0.6;
+}
+#service a{
+  color: #5DD6D1;
+}
+
 
 /* Section 6 - Development */
 #development .container h2{
