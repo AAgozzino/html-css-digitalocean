@@ -73,9 +73,15 @@
 /* Bottoni */
 .button{
   color: #0568F6;
+  background-color: #fff;
   border: 1px solid #0568F6;
   padding: 5px;
   border-radius: 5px;
+}
+
+.button_inblue{
+  border: none;
+  padding: 10px;
 }
 
 /* slider */
@@ -292,7 +298,6 @@ p#innovative{
 #service a{
   color: #5DD6D1;
 }
-
 
 /* Section 6 - Development */
 #development .container h2{
